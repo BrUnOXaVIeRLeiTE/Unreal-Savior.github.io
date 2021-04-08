@@ -3,7 +3,7 @@
 # Savior Plugin Documentation
 
 
-| [Product Page](https://www.unrealengine.com/marketplace/en-US/product/savior) | [Community](https://forums.unrealengine.com/unreal-engine/marketplace/1467088-plugin-savior-3) | [Contact](mailto:bruno_xavier_@msn.com) | [FAQ](#faqs) |
+| [Product Page](https://www.unrealengine.com/marketplace/en-US/product/savior) | [Community](https://forums.unrealengine.com/t/plugin-savior-3/110080) | [Contact](mailto:bruno_xavier_@msn.com) | [FAQ](#faqs) |
 | ------- | ------- | ------- | ------- |
 |   |   |   |   |
 
@@ -38,11 +38,11 @@ This documentation summarizes most common doubts of new users, most common mista
 ## Quick Guides
 
 + [Install Plugin](https://github.com/BrUnOXaVIeRLeiTE/Unreal-Savior.github.io/wiki/How-to-Install-Plugin "Savior Plugin Wiki")
-+ [Creating Slots](https://forums.unrealengine.com/unreal-engine/marketplace/1467088-plugin-savior-3?p=1467090#post1467090 "Unreal Forums")
-+ [Using Save Slots](https://forums.unrealengine.com/unreal-engine/marketplace/1467088-plugin-savior-3?p=1467092#post1467092 "Unreal Forums")
-+ [Savior Tags System](https://forums.unrealengine.com/unreal-engine/marketplace/1467088-plugin-savior-3?p=1467096#post1467096 "Savior Forums")
-+ [Auto-Destroy Mark](https://forums.unrealengine.com/unreal-engine/marketplace/1467088-plugin-savior-3?p=1467093#post1467093 "Unreal Forums")
-+ [Runtime Spawned Actors](https://forums.unrealengine.com/unreal-engine/marketplace/1467088-plugin-savior-3?p=1467094#post1467094 "Unreal Forums")
++ [Creating Slots](https://forums.unrealengine.com/t/plugin-savior-3/110080/3 "Unreal Forums")
++ [Using Save Slots](https://forums.unrealengine.com/t/plugin-savior-3/110080/4 "Unreal Forums")
++ [Savior Tags System](https://forums.unrealengine.com/t/plugin-savior-3/110080/7 "Savior Forums")
++ [Auto-Destroy Mark](https://forums.unrealengine.com/t/plugin-savior-3/110080/5 "Unreal Forums")
++ [Runtime Spawned Actors](https://forums.unrealengine.com/t/plugin-savior-3/110080/6 "Unreal Forums")
 + [It's All About the *SGUID* Property](https://github.com/BrUnOXaVIeRLeiTE/Unreal-Savior.github.io/wiki/Understanding-SGUID "Savior Plugin Wiki")
 
 
