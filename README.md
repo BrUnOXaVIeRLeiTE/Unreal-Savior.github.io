@@ -104,7 +104,7 @@ Chances are you did not setup a [*SGUID* Property](https://github.com/BrUnOXaVIe
 
 > Save World or Game Mode returns *Failed* result, why?
 
-Check thread state with [Get Thread Safety](https://github.com/BrUnOXaVIeRLeiTE/Unreal-Savior.github.io/wiki/Understanding-SGUID "Savior Plugin Wiki") node. If you have another save process running, you have to wait until provious process is complete to start a new one.
+Check thread state with [Get Thread Safety](https://github.com/BrUnOXaVIeRLeiTE/Unreal-Savior.github.io/wiki/Understanding-SGUID "Savior Plugin Wiki") node. If you have another save process running, you have to wait until previous process is complete to start a new one.
 
 > I still can't save anything?!
 
