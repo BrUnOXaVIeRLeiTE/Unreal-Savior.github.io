@@ -11,7 +11,7 @@
  This documentation summarizes most common doubts of new users, most common mistakes, and the best solutions to achieve developer's goals.
 
 
- ## Features
+># Features
 
 | Productivity |
 | ------------ |
@@ -38,16 +38,16 @@
 ># Contents
 
 [Installation](#Installation)<br>
-[How to Setup a Slot](#How-to-Setup-a-Slot)<br>
-[How to Save & Load](#topic-3)<br>
-[How to Setup Pickups](#topic-4)<br>
-[How to Setup Procedural Actors](#topic-5)<br>
-[Understanding SGUID](#topic-6)<br>
-[Tips & Tricks](#topic-7)<br>
-[Savior in C++](#topic-8)<br>
-[FAQ](#topic-9)<br>
-[Extras](#topic-10)<br>
-[Technical Specifications](#topic-11)<br>
+[How to Setup a Slot](#how-to-setup-a-slot)<br>
+[How to Save & Load](#how-to-save-Load)<br>
+[How to Setup Pickups](#how-to-setup-pickups)<br>
+[How to Setup Procedural Actors](#how-to-setup-procedural-actors)<br>
+[Understanding SGUID](#understanding-sguid)<br>
+[Tips & Tricks](#tips-n-tricks)<br>
+[Savior in C++](#savior-in-c++)<br>
+[FAQ](#faqs)<br>
+[Extras](#extras)<br>
+[Technical Specifications](#technical-specifications)<br>
 
 ---
 
@@ -124,7 +124,7 @@ Opening the Asset you can quickly adjust default Properties such as Default Play
 ![2](https://d3kjluh73b9h9o.cloudfront.net/original/4X/a/4/6/a46bca0c4a52deb7d0c9aef426f9a2567276e5f8.png)
 
 
-# <h3 id="topic-3">How to Save & Load</h3>
+## How to Save Load
 
 All you have to do is right click any graph on any of your Blueprints and search from one of main nodes in “Savior” section.
 These main Save/Load functions automatically creates a runtime instance of a Slot object for you… So you don’t have to instantiate anything, just reference the Slot Asset and let the node work:
@@ -146,7 +146,7 @@ If you desire to perform custom Save/Load operations and not necessarily just fi
 
 ---
 
-# <h3 id="topic-4">How to Setup Pickups to Auto-Destroy on Load</h3>
+## How to Setup Pickups
 
 Any Actor you wish to remember it was destroyed and should not respawn on Level load, you have to add a “Destroyed” Boolean Property to it. And mark it ‘Save Game’ tag as well:
 
@@ -173,7 +173,7 @@ Once the Game is saved, the Plugin will Destroy the Actor after it’s “Destro
 
 ---
 
-# <h3 id="topic-5">How to Setup Procedural Actors</h3>
+## How to Setup Procedural Actors
 
 An Actor, or Component, you are spawning at Runtime will be saved as usual.
 However loading them back is a complex task because we cannot control whatever ID the internal engine will assign to a runtime spawned Object.
@@ -208,7 +208,7 @@ Do NOT use a default “New Guid” node! The Guids created by that aren’t per
 
 And it’s done, your ‘Procedural Class’ is ready to be freely spawned in Runtime and be automatically respawned with it’s correct Property’s values restored once the Game is reloaded from a Slot.
 
-# <h3 id="topic-6">Understanding SGUID</h3>
+## Understanding SGUID
 
 There are three types of Actors in any Unreal Engine world:
 * Actors you've placed in the Level by hand.
@@ -253,7 +253,7 @@ So, to counter this inconvenience, I add to Blueprint a SGUID property and use i
 
 ---
 
-# <h3 id="topic-7">Tips & Tricks</h3>
+## Tips n Tricks
 
 #### ![!](https://www.dropbox.com/scl/fi/my4qzni9n6boti7m7cziu/bulb.png?rlkey=vxkudaeww096qjj8lz1yxsvu4&st=9umm2gpx&raw=1) One Template Class for multiple slot instances
 * You only need 1 slot template asset, then you can just override the ***Slot File Name*** property, like in this example below:
@@ -262,7 +262,7 @@ So, to counter this inconvenience, I add to Blueprint a SGUID property and use i
 
 ---
 
-# <h3 id="topic-8">Savior in C++<h3>
+## Savior in C++
 
 If you have native C++ classes you desire to implement Savior's API directly, follow these steps:
 
@@ -543,7 +543,7 @@ void ALoot::OnLoaded_Implementation(const FSlotMeta &MetaData)
 
 ---
 
-# <h3 id="topic-9">FAQs<h3>
+## FAQs
 
 > How, why my Actor isn't saving?
 
@@ -559,7 +559,7 @@ void ALoot::OnLoaded_Implementation(const FSlotMeta &MetaData)
 
 ---
 
-# <h3 id="topic-10">Extras<h3>
+## Extras
 
 ![!](https://www.dropbox.com/scl/fi/my4qzni9n6boti7m7cziu/bulb.png?rlkey=vxkudaeww096qjj8lz1yxsvu4&st=9umm2gpx&raw=1) Savior is one of few save systems in Unreal that supports saving object pointers. And it's the only that actually supports saving a chain of nested UObjects. This is perfect for complex [inventory systems based on the UObject](https://github.com/BrUnOXaVIeRLeiTE/UESimpleInventory#) class.
 
@@ -569,7 +569,7 @@ void ALoot::OnLoaded_Implementation(const FSlotMeta &MetaData)
 
 ---
 
-# <h3 id="topic-11">Module Specifications<h3>
+## Module Specifications
 
 ---
 # Savior Core – C++ API
