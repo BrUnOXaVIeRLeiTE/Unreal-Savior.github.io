@@ -6,48 +6,39 @@
 
  Savior is a C++ tool designed to extend Unreal's save system, providing a more powerful serialization
  framework for complex Unreal projects.
- </br>Savior is a custom serialization system built from scratch with
+ Savior is a custom serialization system built from scratch with
  efficiency in mind, together with a focus in productivity and ease-of-use in Unreal.
- </br>This documentation
- summarizes most common doubts of new users, most common mistakes, and the best solutions to achieve
- developer's goals.
- </br>
- </br>
- # Features
- | Productivity |
- |----|
- Savior eliminates micro-management of individual properties, becoming a valuable time saver for small teams.
- Marking a property with Unreal's 'Save Game' exposes property to the save system, no mirror property required.
- A rich library of helper functions brings free customization of the save process within blueprints, no coding.
- Deleting or adding new blueprint properties will not corrupt existing save files; Contrary to other save systems.
- Built-in versioning system helps patching live games, without causing players to lose existing progress.
+ This documentation summarizes most common doubts of new users, most common mistakes, and the best solutions to achieve developer's goals.
 
-<br>
 
- | Performance |
- |----|
- Savior abuses Unreal's multi-threading capabilities. Saving data is absurdly fast, only limited by target
- hardware.
- Blueprint properties are read directly from target, mirror property in slots not required, increasing performance.
- Actor's location, rotation, scale, velocity, mesh, materials; Are all recorded from multi-threaded algorithms.
+ ## Features
 
-<br>
+| Productivity |
+| ------------ |
+| Savior eliminates micro-management of individual properties, becoming a valuable time saver for small teams.      |
+| Marking a property with Unreal's 'Save Game' exposes property to the save system, no mirror property required.    |
+| A rich library of helper functions brings free customization of the save process within blueprints, no coding.    |
+| Deleting or adding new blueprint properties will not corrupt existing save files; Contrary to other save systems. |
+| Built-in versioning system helps patching live games, without causing players to lose existing progress.          |
 
- | Utility |
- |----|
- Savior is based on slots to persist data.
- A full HUD system ships with the plugin, making easy to implement loading screens, slot selection screens.
- Data loading progress is automatically calculated, generating feedback progress bars without developer efforts.
+| Performance |
+| ----------- |
+| Savior abuses Unreal's multi-threading capabilities. Saving data is absurdly fast, only limited by target hardware. |
+| Blueprint properties are read directly from target, mirror property in slots not required, increasing performance.  |
+| Actor's location, rotation, scale, velocity, mesh, materials; Are all recorded from multi-threaded algorithms.      |
 
-<br>
-<br>
+| Utility |
+| ------- |
+| Savior is based on *slots* to persist data. |
+| A full HUD system ships with the plugin, making easy to implement loading screens, slot selection screens.        |
+| Data loading progress is automatically calculated, generating feedback progress bars without developer efforts.   |
 
 ---
 
 ># Contents
 
 [Installation](#Installation)<br>
-[How to Setup a Slot](#topic-2)<br>
+[How to Setup a Slot](#How-to-Setup-a-Slot)<br>
 [How to Save & Load](#topic-3)<br>
 [How to Setup Pickups](#topic-4)<br>
 [How to Setup Procedural Actors](#topic-5)<br>
@@ -123,7 +114,7 @@ Open the Epic Games Launcher and install the Savior plugin from Marketplace, or 
 You must have a valid Epic games account to purchase any products from Unreal Marketplace.
 
 
-# <h3 id="topic-2">How to Setup a Slot</h3>
+## How to Setup a Slot
 
 As always, create a Slot Asset on Asset Browser;
 Opening the Asset you can quickly adjust default Properties such as Default Player Name, Levels Thumbnails, etc:
