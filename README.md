@@ -46,7 +46,7 @@
 
 ># Contents
 
-[Installation](#topic-1)<br>
+[Installation](#Installation)<br>
 [How to Setup a Slot](#topic-2)<br>
 [How to Save & Load](#topic-3)<br>
 [How to Setup Pickups](#topic-4)<br>
@@ -117,7 +117,7 @@
 ># Quick Guides
 
 
-# <h3 id="topic-1">Installation</h3>
+# Installation
 
 Open the Epic Games Launcher and install the Savior plugin from Marketplace, or the FAB store.
 You must have a valid Epic games account to purchase any products from Unreal Marketplace.
