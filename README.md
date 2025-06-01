@@ -44,7 +44,7 @@
 [How to Setup Procedural Actors](#how-to-setup-procedural-actors)<br>
 [Understanding SGUID](#understanding-sguid)<br>
 [Tips & Tricks](#tips-n-tricks)<br>
-[Savior in C++](#savior-in-c++)<br>
+[Savior in C++](#savior-in-c)<br>
 [FAQ](#faqs)<br>
 [Extras](#extras)<br>
 [Technical Specifications](#technical-specifications)<br>
