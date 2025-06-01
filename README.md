@@ -117,7 +117,7 @@
 ># Quick Guides
 
 
-[# Installation]
+## Installation
 
 Open the Epic Games Launcher and install the Savior plugin from Marketplace, or the FAB store.
 You must have a valid Epic games account to purchase any products from Unreal Marketplace.
