@@ -37,7 +37,7 @@
 
 ># Contents
 
-[Installation](#Installation)<br>
+[Installation](#installation)<br>
 [How to Setup a Slot](#how-to-setup-a-slot)<br>
 [How to Save & Load](#how-to-save-Load)<br>
 [How to Setup Pickups](#how-to-setup-pickups)<br>
