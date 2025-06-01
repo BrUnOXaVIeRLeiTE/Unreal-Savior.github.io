@@ -39,7 +39,7 @@
 
 [Installation](#installation)<br>
 [How to Setup a Slot](#how-to-setup-a-slot)<br>
-[How to Save & Load](#how-to-save-Load)<br>
+[How to Save & Load](#how-to-save-load)<br>
 [How to Setup Pickups](#how-to-setup-pickups)<br>
 [How to Setup Procedural Actors](#how-to-setup-procedural-actors)<br>
 [Understanding SGUID](#understanding-sguid)<br>
